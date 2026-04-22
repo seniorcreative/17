@@ -63,8 +63,8 @@ export default function FriendsOf10() {
     <div className="card">
       <h2>Friends of 10</h2>
       <p style={{ marginBottom: "1.5rem", color: "#6b7280" }}>
-        Friends of 10 are pairs that add up to 10. We can make 10 first, then
-        join the rest of the 7 to reach 17.
+        Friends of 10 are pairs that add up to 10. We can think about the
+        missing part of the ten frame, then connect that idea to 17.
       </p>
 
       <div
@@ -104,7 +104,8 @@ export default function FriendsOf10() {
       </div>
 
       <div style={{ marginBottom: "1rem", fontSize: "1.1rem" }}>
-        Use some of the 7 to make 10: <strong>{base}</strong> + ? ={" "}
+        How many more are needed to fill the ten frame? <strong>{base}</strong>
+        {" + ? = "}
         <strong>10</strong>
       </div>
 
@@ -195,8 +196,9 @@ export default function FriendsOf10() {
             </div>
           </div>
           <p style={{ color: "#6b7280", marginTop: "0.5rem" }}>
-            We used <strong>{friendOf10}</strong> from the 7 to fill the first
-            ten frame, leaving <strong>{leftoverFromSeven}</strong>.
+            The missing part of the ten frame is <strong>{friendOf10}</strong>.
+            The 7 still stays as 7, and <strong>{leftoverFromSeven}</strong>
+            is the part of 7 that matches what is left after making 10.
           </p>
           <p style={{ color: "#6b7280", marginTop: "0.5rem" }}>
             So{" "}
